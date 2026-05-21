@@ -1,0 +1,19 @@
+:root {
+  --very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --grayish-Blue: hsl(212, 23%, 69%);
+  --light-Grayish-Blue: hsl(210, 46%, 95%);
+
+  --fs-sm: 0.8rem;
+  --fs-md: 1.6rem;
+  --fs-lg: 2.4rem;
+  --fs-xl: 3.2rem;
+
+  --sp-sm: 1rem;
+  --sp-md: 2rem;
+  --sp-lg: 3rem;
+  --sp-xl: 4rem;
+
+  --fw-500: 500;
+  --fw-700: 700;
+}
