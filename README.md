@@ -15,12 +15,18 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshot.jpg)
+### Desktop
+![](./public/images/localhost_4173_article-preview-component-main_.png)
+
+### Mobile
+![](./public/images/localhost_4173_article-preview-component-main_%20(1).png)
+
+
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/MoDev228/name-project)
-- Live Site URL: [Name site](https://g-akca.github.io/name-project/)
+- Solution URL: [GitHub](https://github.com/MoDev228/article-preview-component-main)
+- Live Site URL: [Article Preview](https://g-akca.github.io/article-preview-component-main/)
 
 ## My process
 
