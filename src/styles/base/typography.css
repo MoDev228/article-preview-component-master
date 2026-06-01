@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: var(--fs-md);
+  line-height: 1.4;
+}
+
+.infos-title {
+  font-size: 1.7rem;
+}
+
+.infos-description {
+  font-size: 1.42rem;
+  font-weight: 500;
+  color: var(--desaturated-Dark-Blue);
+}

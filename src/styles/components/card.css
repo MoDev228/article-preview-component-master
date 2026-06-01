@@ -1,0 +1,155 @@
+body {
+  background: var(--light-Grayish-Blue);
+}
+
+.card {
+  background: #ffff;
+  color: var(--very-Dark-Grayish-Blue);
+  border-radius: 1.5rem;
+}
+
+picture img {
+  object-fit: cover;
+  aspect-ratio: 9 / 6;
+  object-position: top left;
+}
+
+.infos-title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-inline: 3.5rem;
+}
+
+.infos-description {
+  padding-inline: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.infos-profil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  padding-inline: 3.5rem;
+  position: relative;
+}
+
+.infos-profil figure {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+figure > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+figure p {
+  color: var(--very-Dark-Grayish-Blue);
+  font-weight: 700;
+}
+
+figure span {
+  color: var(--desaturated-Dark-Blue);
+}
+
+.infos-profil a {
+  background: var(--light-Grayish-Blue);
+  padding: 1rem;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.infos-profil a:hover {
+  background: var(--very-Dark-Grayish-Blue);
+}
+
+.share-bubble {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  width: auto;
+  height: 120px;
+  border-radius: 0;
+  background: var(--very-Dark-Grayish-Blue);
+
+  display: none;
+  justify-content: start;
+  align-items: center;
+  gap: 2.5rem;
+  padding-left: 1rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.share-bubble:active {
+  background: var(--light-Grayish-Blue);
+}
+
+.share-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.share-bubble span {
+  color: var(--light-Grayish-Blue);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.share-bubble img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.share-bubble.active {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  picture img {
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+  }
+
+  .card__infos {
+    flex: 1;
+  }
+
+  .infos-title {
+    padding-right: 6rem;
+    font-size: 1.85rem;
+  }
+
+  .share-bubble {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 220px;
+    bottom: 55px;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background: var(--very-Dark-Grayish-Blue);
+    z-index: 10;
+  }
+
+  .share-bubble::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 113px;
+    background: var(--very-Dark-Grayish-Blue);
+    width: 20px;
+    height: 10px;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+  }
+}

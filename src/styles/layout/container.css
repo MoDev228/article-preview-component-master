@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+  max-width: 1440px;
+  }
+
+  .card {
+    max-width: 750px;
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
